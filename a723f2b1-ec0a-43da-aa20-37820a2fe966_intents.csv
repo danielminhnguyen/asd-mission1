@@ -1,0 +1,214 @@
+cancel that,Cancel
+forget it,Cancel
+nevermind,Cancel
+i don't want a table anymore anymore,Cancel
+hi,Cancel
+cancel the request,Cancel
+i changed my mind,Cancel
+never mind,Cancel
+i'd like to make an appointment,Customer_Care_Appointments
+can you make an appointment for me,Customer_Care_Appointments
+can i make an appointment,Customer_Care_Appointments
+do you have availability next week,Customer_Care_Appointments
+can i book for tonight,Customer_Care_Appointments
+are you available on tuesday,Customer_Care_Appointments
+i'd like to come in for an appointment,Customer_Care_Appointments
+Could I speak to someone in the store next tuesday?,Customer_Care_Appointments
+I would like to make an appointment to visit the nearest store to my location.,Customer_Care_Appointments
+I would like to discuss my situation face to face,Customer_Care_Appointments
+I want to talk in person with someone about my case,Customer_Care_Appointments
+meet in store,Customer_Care_Appointments
+Can I book an in person session,Customer_Care_Appointments
+Make an appointment,Customer_Care_Appointments
+I prefer a face to face visit,Customer_Care_Appointments
+Set up an appt,Customer_Care_Appointments
+Store appointment,Customer_Care_Appointments
+Want to change my visit,Customer_Care_Appointments
+When can I meet with one of your employees at your store?,Customer_Care_Appointments
+What time can I meet the staff?,Customer_Care_Appointments
+Are you open on bank holidays?,Customer_Care_Store_Hours
+Is the branch open now?,Customer_Care_Store_Hours
+How long are you open?,Customer_Care_Store_Hours
+How early do you open?,Customer_Care_Store_Hours
+Does the store in the city center opens till 8pm on weekends?,Customer_Care_Store_Hours
+Can you tell me how late the stores are open till?,Customer_Care_Store_Hours
+At what hour can I swing by?,Customer_Care_Store_Hours
+"Are you open on sundays, and if so what are the hours?",Customer_Care_Store_Hours
+Are you open during thanksgiving?,Customer_Care_Store_Hours
+Are the stores open early?,Customer_Care_Store_Hours
+will you open on christmas,Customer_Care_Store_Hours
+how late y'all stay up till,Customer_Care_Store_Hours
+how late are you there,Customer_Care_Store_Hours
+how early do you open on Saturdays,Customer_Care_Store_Hours
+Are you closed new Year's eve,Customer_Care_Store_Hours
+Are you closing early today,Customer_Care_Store_Hours
+What is the opening time for the washington store?,Customer_Care_Store_Hours
+store open hours?,Customer_Care_Store_Hours
+store open,Customer_Care_Store_Hours
+store hours,Customer_Care_Store_Hours
+store hrs,Customer_Care_Store_Hours
+when can i visit your store,Customer_Care_Store_Hours
+when does the store close,Customer_Care_Store_Hours
+when do your stores open,Customer_Care_Store_Hours
+open hours store,Customer_Care_Store_Hours
+store open now,Customer_Care_Store_Hours
+are stores open on sunday,Customer_Care_Store_Hours
+how late are you open tonight,Customer_Care_Store_Hours
+how late are you open,Customer_Care_Store_Hours
+Are you open on Sunday,Customer_Care_Store_Hours
+Hours of operation,Customer_Care_Store_Hours
+What time do you close today,Customer_Care_Store_Hours
+what time do you close on Sunday,Customer_Care_Store_Hours
+What time do you open on Saturdays,Customer_Care_Store_Hours
+What time do you close,Customer_Care_Store_Hours
+when do you close,Customer_Care_Store_Hours
+will you be open Memorial day,Customer_Care_Store_Hours
+will you open for christmas,Customer_Care_Store_Hours
+what are your hours,Customer_Care_Store_Hours
+What time is your store open on saturday?,Customer_Care_Store_Hours
+What time do stores close?,Customer_Care_Store_Hours
+What time does the central manchester store shut on a saturday?,Customer_Care_Store_Hours
+What time are you closing today?,Customer_Care_Store_Hours
+What are your hous?,Customer_Care_Store_Hours
+What are ur opening hours?,Customer_Care_Store_Hours
+What are the saturday opening times for the local store?,Customer_Care_Store_Hours
+What are the hours of operation?,Customer_Care_Store_Hours
+What are the business hours of the store nearest to me?,Customer_Care_Store_Hours
+location please,Customer_Care_Store_Location
+can you give me directions,Customer_Care_Store_Location
+where are you located,Customer_Care_Store_Location
+how do i get to your place,Customer_Care_Store_Location
+Find store,Customer_Care_Store_Location
+Where is?,Customer_Care_Store_Location
+Where are you located?,Customer_Care_Store_Location
+how do i get to your business,Customer_Care_Store_Location
+Go to your company,Customer_Care_Store_Location
+I'd like to go to a store,Customer_Care_Store_Location
+how do i find you,Customer_Care_Store_Location
+what is the address,Customer_Care_Store_Location
+where are you,Customer_Care_Store_Location
+what's your location,Customer_Care_Store_Location
+give me directions,Customer_Care_Store_Location
+which cross streets are you on,Customer_Care_Store_Location
+What is the closest store to my address?,Customer_Care_Store_Location
+Looking for a location,Customer_Care_Store_Location
+how can i get to you from grand central,Customer_Care_Store_Location
+I want to know about a store,Customer_Care_Store_Location
+I need help with find a store,Customer_Care_Store_Location
+please suggest route from times square,Customer_Care_Store_Location
+Where is your office?,Customer_Care_Store_Location
+What is the store near my zip code?,Customer_Care_Store_Location
+What is the nearest branch?,Customer_Care_Store_Location
+How do I apply for finance?,FAQ_OnlineAuctions
+What’s the difference between online auctions and Turners live?,FAQ_OnlineAuctions
+What shipping options are there?,FAQ_OnlineAuctions
+What’s an autobid?,FAQ_OnlineAuctions
+How do I ask a question about a good?,FAQ_OnlineAuctions
+How do I place an autobid?,FAQ_OnlineAuctions
+Are there any buyers fees?,FAQ_OnlineAuctions
+What payment options are there?,FAQ_OnlineAuctions
+Why am I receiving emails from Trade Me?,FAQ_OnlineAuctions
+How can I bid on Turners Online Auctions?,FAQ_OnlineAuctions
+Why do I need to link my Turners account to Trade Me?,FAQ_OnlineAuctions
+What if I don’t link my Turners account to Trade Me?,FAQ_OnlineAuctions
+How can I bid on Turners Trade Me auctions?,FAQ_OnlineAuctions
+What if I don’t have a Trade Me account?,FAQ_OnlineAuctions
+I want to speak to a person,General_Connect_to_Agent
+I dont want to talk to a computer,General_Connect_to_Agent
+call the manager,General_Connect_to_Agent
+I want to speak to a human,General_Connect_to_Agent
+I want to talk to the manager,General_Connect_to_Agent
+"A real agent, please.",General_Connect_to_Agent
+Call agent,General_Connect_to_Agent
+talk to a human,General_Connect_to_Agent
+Agent help,General_Connect_to_Agent
+"Yes, take me to a real person",General_Connect_to_Agent
+Where is the closest agent?,General_Connect_to_Agent
+Send me to an agent,General_Connect_to_Agent
+I don't want to speak with a robot,General_Connect_to_Agent
+get me a person,General_Connect_to_Agent
+Can I connect to an agent?,General_Connect_to_Agent
+Can I speak to a human please?,General_Connect_to_Agent
+Can I speak to a live person?,General_Connect_to_Agent
+Can I speak to an advisor?,General_Connect_to_Agent
+Can I speak with somebody?,General_Connect_to_Agent
+Can I talk to someone?,General_Connect_to_Agent
+Can you assist me to connect to an agent?,General_Connect_to_Agent
+Can you connect me with a real person?,General_Connect_to_Agent
+Connect me to a live operator please.,General_Connect_to_Agent
+Contact person,General_Connect_to_Agent
+Could you please transfer me to your master?,General_Connect_to_Agent
+Customer service representative please.,General_Connect_to_Agent
+Do not want a robot?,General_Connect_to_Agent
+Hi can you transfer me,General_Connect_to_Agent
+How can I skip the recorded menu and go straight to a live person?,General_Connect_to_Agent
+I don't want to talk to a bot.,General_Connect_to_Agent
+I don't want to talk to you,General_Connect_to_Agent
+Is there anyone there I can actually talk to for real?,General_Connect_to_Agent
+I need to speak to a representative. How would I go about doing so?,General_Connect_to_Agent
+I want agent,General_Connect_to_Agent
+I want a manager,General_Connect_to_Agent
+I want an agent to help me,General_Connect_to_Agent
+I want to talk to a person,General_Connect_to_Agent
+I would like to speak to a human,General_Connect_to_Agent
+I would like to speak to someone,General_Connect_to_Agent
+Need help from human,General_Connect_to_Agent
+Please assist me to get to an agent,General_Connect_to_Agent
+Operator please,General_Connect_to_Agent
+Please connect me to a live agent,General_Connect_to_Agent
+Please let me talk to a human being.,General_Connect_to_Agent
+Pls connect,General_Connect_to_Agent
+Put me through to someone,General_Connect_to_Agent
+representative,General_Connect_to_Agent
+Hey there,General_Greetings
+Hey there all,General_Greetings
+Hey how are you doing,General_Greetings
+Hello,General_Greetings
+Hello Agent,General_Greetings
+Have you been well?,General_Greetings
+Greetings,General_Greetings
+Good to see you,General_Greetings
+Good morning,General_Greetings
+Good evening,General_Greetings
+Good day,General_Greetings
+hiya,General_Greetings
+yo,General_Greetings
+How are things going?,General_Greetings
+How are you today?,General_Greetings
+How have you been?,General_Greetings
+hi,General_Greetings
+How r u?,General_Greetings
+Looking good eve,General_Greetings
+Hey you,General_Greetings
+How is it going?,General_Greetings
+You there,General_Greetings
+Who is this?,General_Greetings
+What's up?,General_Greetings
+Hello I am looking for some help here,General_Greetings
+What's new?,General_Greetings
+Hi there,General_Greetings
+Hey twin,General_Greetings
+Hi advisor,General_Greetings
+Ok take me back,General_Greetings
+arrivederci,Goodbye
+see ya,Goodbye
+bye,Goodbye
+good bye,Goodbye
+so long,Goodbye
+ciao,Goodbye
+what can i say,Help
+can you help,Help
+can you assist me,Help
+help,Help
+help me decide,Help
+help me,Help
+i need assistance,Help
+what can i do,Help
+thanks,Thanks
+much appreciated,Thanks
+i appreciate it,Thanks
+thx,Thanks
+thank you very much,Thanks
+that's nice of you,Thanks
+many thanks,Thanks
+thank you,Thanks

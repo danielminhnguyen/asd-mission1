@@ -1,0 +1,1440 @@
+{
+  "name": "Turner Chatbot",
+  "type": "dialog",
+  "status": "Available",
+  "language": "en",
+  "skill_id": "b1c4ef8b-bba1-44db-8421-a52145786604",
+  "workspace": {
+    "actions": [
+      {
+        "steps": [
+          {
+            "step": "step_369",
+            "output": {
+              "generic": [
+                {
+                  "values": [
+                    {
+                      "text_expression": {
+                        "concat": [
+                          {
+                            "scalar": "Because our Turners Trade Me Auctions are held in partnership with Trade Me, you will receive emails from them depending on your Trade Me notification settings."
+                          }
+                        ]
+                      }
+                    }
+                  ],
+                  "response_type": "text",
+                  "selection_policy": "sequential"
+                }
+              ]
+            },
+            "handlers": [],
+            "resolver": {
+              "type": "continue"
+            },
+            "variable": "step_369",
+            "next_step": "step_897"
+          },
+          {
+            "step": "step_897",
+            "output": {
+              "generic": [
+                {
+                  "values": [
+                    {
+                      "text_expression": {
+                        "concat": [
+                          {
+                            "scalar": "To check your Trade Me notification settings:\n1)      Go to [www.trademe.co.nz](https://www.trademe.co.nz)\n2)      Login in\n3)      Go to ‘My Trade Me’\n4)      Click on 'view my Trade Me'  \n5)      Under ‘More options’ click on ‘Email options’"
+                          }
+                        ]
+                      }
+                    }
+                  ],
+                  "response_type": "text",
+                  "selection_policy": "sequential"
+                }
+              ]
+            },
+            "handlers": [],
+            "resolver": {
+              "type": "continue"
+            },
+            "variable": "step_897"
+          }
+        ],
+        "title": "Why am I receiving emails from Trade Me?",
+        "action": "action_11519",
+        "handlers": [],
+        "condition": {
+          "intent": "action_11519_intent_12538"
+        },
+        "variables": [
+          {
+            "title": "Because our Turners Trade Me Auctions are held in partnership wi",
+            "variable": "step_369"
+          },
+          {
+            "title": "To check your Trade Me notification settings: 1) Go to [www.trad",
+            "variable": "step_897"
+          }
+        ],
+        "next_action": "action_8305",
+        "disambiguation_opt_out": false
+      },
+      {
+        "steps": [
+          {
+            "step": "step_808",
+            "output": {
+              "generic": [
+                {
+                  "values": [
+                    {
+                      "text_expression": {
+                        "concat": [
+                          {
+                            "scalar": "If you don’t have a Trade Me account and would like to bid on Turners Trade Me Auctions you will need to create one. Then link your Turners account to Trade Me.You can still search for and view all goods on www.turners.co.nz without linking to Trade Me."
+                          }
+                        ]
+                      }
+                    }
+                  ],
+                  "response_type": "text",
+                  "selection_policy": "sequential"
+                }
+              ]
+            },
+            "handlers": [],
+            "resolver": {
+              "type": "continue"
+            },
+            "variable": "step_808"
+          }
+        ],
+        "title": "What if I don’t have a Trade Me account?",
+        "action": "action_23582",
+        "handlers": [],
+        "condition": {
+          "intent": "action_23582_intent_43536"
+        },
+        "variables": [
+          {
+            "title": "If you don’t have a Trade Me account and would like to bid on Tu",
+            "variable": "step_808"
+          }
+        ],
+        "next_action": "action_6760",
+        "disambiguation_opt_out": false
+      },
+      {
+        "steps": [
+          {
+            "step": "step_812",
+            "output": {
+              "generic": [
+                {
+                  "values": [
+                    {
+                      "text_expression": {
+                        "concat": [
+                          {
+                            "scalar": "Turners Live allows you to bid on live auctions that are taking place physically and are run by an auctioneer in front of customers.Online auctions are only held online, there is no physical auction or auctioneer. The customers are all online."
+                          }
+                        ]
+                      }
+                    }
+                  ],
+                  "response_type": "text",
+                  "selection_policy": "sequential"
+                }
+              ]
+            },
+            "handlers": [],
+            "resolver": {
+              "type": "end_action"
+            },
+            "variable": "step_812"
+          }
+        ],
+        "title": "What’s the difference between online auctions and Turners live?",
+        "action": "action_24222",
+        "handlers": [],
+        "condition": {
+          "intent": "action_24222_intent_7234"
+        },
+        "variables": [
+          {
+            "title": "Turners Live allows you to bid on live auctions that are taking ",
+            "variable": "step_812"
+          }
+        ],
+        "next_action": "action_23582",
+        "disambiguation_opt_out": false
+      },
+      {
+        "steps": [
+          {
+            "step": "step_238",
+            "output": {
+              "generic": [
+                {
+                  "values": [
+                    {
+                      "text_expression": {
+                        "concat": [
+                          {
+                            "scalar": "1) Specify the maximum you want to bid in the box\n2) Tick the autobid box - MY BID (on the left hand side) will then change to MY MAXIMUM BID\n3) Click AUTOBID"
+                          }
+                        ]
+                      }
+                    }
+                  ],
+                  "response_type": "text",
+                  "selection_policy": "sequential"
+                }
+              ]
+            },
+            "handlers": [],
+            "resolver": {
+              "type": "continue"
+            },
+            "variable": "step_238"
+          }
+        ],
+        "title": "How do I place an autobid?",
+        "action": "action_32075",
+        "handlers": [],
+        "condition": {
+          "intent": "action_32075_intent_38927"
+        },
+        "variables": [
+          {
+            "title": "1) Specify the maximum you want to bid in the box 2) Tick the au",
+            "variable": "step_238"
+          }
+        ],
+        "next_action": "action_3215",
+        "disambiguation_opt_out": false
+      },
+      {
+        "steps": [
+          {
+            "step": "step_660",
+            "output": {
+              "generic": [
+                {
+                  "values": [
+                    {
+                      "text_expression": {
+                        "concat": [
+                          {
+                            "scalar": "To find out more about Turners Finance and to apply, please visit www.turners.co.nz/FinanceThere is a lot of helpful information including, application forms, booking a no obligation consultation and a loan calculator."
+                          }
+                        ]
+                      }
+                    }
+                  ],
+                  "response_type": "text",
+                  "selection_policy": "sequential"
+                }
+              ]
+            },
+            "handlers": [],
+            "resolver": {
+              "type": "continue"
+            },
+            "variable": "step_660"
+          }
+        ],
+        "title": "How do I apply for finance?",
+        "action": "action_3215",
+        "handlers": [],
+        "condition": {
+          "intent": "action_3215_intent_28483"
+        },
+        "variables": [
+          {
+            "title": "To find out more about Turners Finance and to apply, please visi",
+            "variable": "step_660"
+          }
+        ],
+        "next_action": "anything_else",
+        "disambiguation_opt_out": false
+      },
+      {
+        "steps": [
+          {
+            "step": "step_208",
+            "output": {
+              "generic": [
+                {
+                  "values": [
+                    {
+                      "text_expression": {
+                        "concat": [
+                          {
+                            "scalar": "If you're set up to bid on Turners Live, you're already set up to bid on these auctions."
+                          }
+                        ]
+                      }
+                    }
+                  ],
+                  "response_type": "text",
+                  "selection_policy": "sequential"
+                }
+              ]
+            },
+            "handlers": [],
+            "resolver": {
+              "type": "continue"
+            },
+            "variable": "step_208",
+            "next_step": "step_886"
+          },
+          {
+            "step": "step_403",
+            "output": {
+              "generic": [
+                {
+                  "values": [
+                    {
+                      "text_expression": {
+                        "concat": [
+                          {
+                            "scalar": "Step 5: If you can't see the red button you may not be registered with us as a licensed dealer. Go to the ACCOUNT TYPE section at the bottom of the page and ensure the correct account type is selected, fill in the additional details and we will send a General Agreement to Trade form. You will need to complete this form to be registered as a dealer within our system"
+                          }
+                        ]
+                      }
+                    }
+                  ],
+                  "response_type": "text",
+                  "selection_policy": "sequential"
+                }
+              ]
+            },
+            "handlers": [],
+            "resolver": {
+              "type": "end_action"
+            },
+            "variable": "step_403",
+            "condition": {
+              "or": [
+                {
+                  "eq": [
+                    {
+                      "variable": "step_886"
+                    },
+                    {
+                      "value": "Registered Motor Vehicle Traders",
+                      "from_entity": "action_34861_step_886_entity_6196"
+                    }
+                  ]
+                },
+                {
+                  "eq": [
+                    {
+                      "variable": "step_886"
+                    },
+                    {
+                      "value": "Licensed Second-hand Dealers & Licensed Dismantlers",
+                      "from_entity": "action_34861_step_886_entity_6196"
+                    }
+                  ]
+                }
+              ]
+            }
+          },
+          {
+            "step": "step_463",
+            "output": {
+              "generic": [
+                {
+                  "values": [
+                    {
+                      "text_expression": {
+                        "concat": [
+                          {
+                            "scalar": "Step 4: Go to the ACCOUNT TYPE section at the bottom of the page and tick the box that says BID ONLINE. Or you will see a red 'BID ONLINE' button on the top right hand side\nStep 5: Enter your credit card details. To authorise your card we need to charge $1 to it, this will be credited back onto your card after a couple of days."
+                          }
+                        ]
+                      }
+                    }
+                  ],
+                  "response_type": "text",
+                  "selection_policy": "sequential"
+                }
+              ]
+            },
+            "handlers": [],
+            "resolver": {
+              "type": "end_action"
+            },
+            "variable": "step_463",
+            "condition": {
+              "eq": [
+                {
+                  "variable": "step_886"
+                },
+                {
+                  "value": "Private customers & companies",
+                  "from_entity": "action_34861_step_886_entity_6196"
+                }
+              ]
+            },
+            "next_step": "step_826"
+          },
+          {
+            "step": "step_636",
+            "output": {
+              "generic": [
+                {
+                  "values": [
+                    {
+                      "text_expression": {
+                        "concat": [
+                          {
+                            "scalar": "Step 1: Log into your Turners website account \nStep 2: Go to MY ACCOUNT\nStep 3: Click ACCOUNT DETAILS - Edit"
+                          }
+                        ]
+                      }
+                    }
+                  ],
+                  "response_type": "text",
+                  "selection_policy": "sequential"
+                }
+              ]
+            },
+            "handlers": [],
+            "resolver": {
+              "type": "continue"
+            },
+            "variable": "step_636",
+            "condition": {
+              "eq": [
+                {
+                  "variable": "step_886"
+                },
+                {
+                  "value": "Private customers & companies",
+                  "from_entity": "action_34861_step_886_entity_6196"
+                }
+              ]
+            },
+            "next_step": "step_463"
+          },
+          {
+            "step": "step_826",
+            "output": {
+              "generic": [
+                {
+                  "values": [
+                    {
+                      "text_expression": {
+                        "concat": [
+                          {
+                            "scalar": "Step 1: Log into your Turners website account  \nStep 2: Go to MY ACCOUNT\nStep 3: Click ACCOUNT DETAILS - Edit\nStep 4: Click the red 'BID ONLINE' button on the top right hand side"
+                          }
+                        ]
+                      }
+                    }
+                  ],
+                  "response_type": "text",
+                  "selection_policy": "sequential"
+                }
+              ]
+            },
+            "handlers": [],
+            "resolver": {
+              "type": "continue"
+            },
+            "variable": "step_826",
+            "condition": {
+              "or": [
+                {
+                  "eq": [
+                    {
+                      "variable": "step_886"
+                    },
+                    {
+                      "value": "Registered Motor Vehicle Traders",
+                      "from_entity": "action_34861_step_886_entity_6196"
+                    }
+                  ]
+                },
+                {
+                  "eq": [
+                    {
+                      "variable": "step_886"
+                    },
+                    {
+                      "value": "Licensed Second-hand Dealers & Licensed Dismantlers",
+                      "from_entity": "action_34861_step_886_entity_6196"
+                    }
+                  ]
+                }
+              ]
+            },
+            "next_step": "step_403"
+          },
+          {
+            "step": "step_886",
+            "output": {
+              "generic": [
+                {
+                  "values": [
+                    {
+                      "text_expression": {
+                        "concat": [
+                          {
+                            "scalar": "If not, please choose the following"
+                          }
+                        ]
+                      }
+                    }
+                  ],
+                  "response_type": "text",
+                  "selection_policy": "sequential"
+                },
+                {
+                  "options": [
+                    {
+                      "label": "Private customers & companies",
+                      "value": {
+                        "input": {
+                          "text": "Private customers & companies"
+                        }
+                      }
+                    },
+                    {
+                      "label": "Registered Motor Vehicle Traders",
+                      "value": {
+                        "input": {
+                          "text": "Registered Motor Vehicle Traders"
+                        }
+                      }
+                    },
+                    {
+                      "label": "Licensed Second-hand Dealers & Licensed Dismantlers",
+                      "value": {
+                        "input": {
+                          "text": "Licensed Second-hand Dealers & Licensed Dismantlers"
+                        }
+                      }
+                    }
+                  ],
+                  "response_type": "option"
+                }
+              ]
+            },
+            "handlers": [
+              {
+                "type": "not_found",
+                "title": "validation_not_found_handler",
+                "output": {
+                  "generic": [
+                    {
+                      "values": [
+                        {
+                          "text": "I didn't catch that. Select or enter one of the options above."
+                        }
+                      ],
+                      "response_type": "text"
+                    }
+                  ]
+                },
+                "handler": "validation_not_found_handler",
+                "resolver": {
+                  "type": "prompt_again"
+                },
+                "next_handler": "validation_not_found_max_tries_handler"
+              },
+              {
+                "type": "not_found_max_tries",
+                "title": "validation_not_found_max_tries_handler",
+                "output": {
+                  "generic": [
+                    {
+                      "values": [
+                        {
+                          "text": "I'm afraid I don't understand. Let me see if I can help another way."
+                        }
+                      ],
+                      "response_type": "text"
+                    }
+                  ]
+                },
+                "handler": "validation_not_found_max_tries_handler",
+                "resolver": {
+                  "type": "end_action"
+                }
+              }
+            ],
+            "question": {
+              "entity": "action_34861_step_886_entity_6196",
+              "max_tries": 3,
+              "only_populate_when_prompted": false
+            },
+            "resolver": {
+              "type": "continue"
+            },
+            "variable": "step_886",
+            "next_step": "step_636"
+          }
+        ],
+        "title": "How can I bid on Turners Online Auctions?",
+        "action": "action_34861",
+        "handlers": [],
+        "condition": {
+          "intent": "action_34861_intent_2806"
+        },
+        "variables": [
+          {
+            "title": "If you're set up to bid on Turners Live, you're already set up t",
+            "variable": "step_208"
+          },
+          {
+            "title": "Step 5: If you can't see the red button you may not be registere",
+            "variable": "step_403"
+          },
+          {
+            "title": "Step 4: Go to the ACCOUNT TYPE section at the bottom of the page",
+            "variable": "step_463"
+          },
+          {
+            "title": "Step 1: Log into your Turners website account Step 2: Go to MY A",
+            "variable": "step_636"
+          },
+          {
+            "title": "Step 1: Log into your Turners website account Step 2: Go to MY A",
+            "variable": "step_826"
+          },
+          {
+            "title": "If not, please choose the following",
+            "variable": "step_886"
+          }
+        ],
+        "next_action": "action_32075",
+        "disambiguation_opt_out": false
+      },
+      {
+        "steps": [
+          {
+            "step": "step_411",
+            "output": {
+              "generic": [
+                {
+                  "values": [
+                    {
+                      "text_expression": {
+                        "concat": [
+                          {
+                            "scalar": "Payment options will vary, but are likely to include; direct credit, cash, EFTPOS, Visa or Mastercard.\nOur standard terms are that funds need to clear before goods can be released.\n**Please note that we charge an extra 2% on all credit card transactions. We are unable to accept cheques.*"
+                          }
+                        ]
+                      }
+                    }
+                  ],
+                  "response_type": "text",
+                  "selection_policy": "sequential"
+                }
+              ]
+            },
+            "handlers": [],
+            "resolver": {
+              "type": "end_action"
+            },
+            "variable": "step_411"
+          }
+        ],
+        "title": "What payment options are there?",
+        "action": "action_35023",
+        "handlers": [],
+        "condition": {
+          "intent": "action_35023_intent_35998"
+        },
+        "variables": [
+          {
+            "title": "Payment options will vary, but are likely to include; direct cre",
+            "variable": "step_411"
+          }
+        ],
+        "next_action": "action_43649",
+        "disambiguation_opt_out": false
+      },
+      {
+        "steps": [
+          {
+            "step": "step_254",
+            "output": {
+              "generic": [
+                {
+                  "values": [
+                    {
+                      "text_expression": {
+                        "concat": [
+                          {
+                            "scalar": "This is because our Turners Trade Me Auctions are held in partnership with Trade Me, you need to link your Turners account to Trade Me to be able to bid or Buy Now.You do not need to link your account to Trade Me for Turners Online Auctions."
+                          }
+                        ]
+                      }
+                    }
+                  ],
+                  "response_type": "text",
+                  "selection_policy": "sequential"
+                }
+              ]
+            },
+            "handlers": [],
+            "resolver": {
+              "type": "end_action"
+            },
+            "variable": "step_254"
+          }
+        ],
+        "title": "Why do I need to link my Turners account to Trade Me?",
+        "action": "action_35124",
+        "handlers": [],
+        "condition": {
+          "intent": "action_35124_intent_45568"
+        },
+        "variables": [
+          {
+            "title": "This is because our Turners Trade Me Auctions are held in partne",
+            "variable": "step_254"
+          }
+        ],
+        "next_action": "action_38016",
+        "disambiguation_opt_out": false
+      },
+      {
+        "steps": [
+          {
+            "step": "step_233",
+            "output": {
+              "generic": [
+                {
+                  "values": [
+                    {
+                      "text_expression": {
+                        "concat": [
+                          {
+                            "scalar": "Go to MY ACCOUNT, and select ACCOUNT DETAILS – Edit. You will then see the LINK MY TRADE ME ACCOUNT button below.\nAlternatively, if you click on the BID or BUY NOW button in an online auction you will be prompted to link your account."
+                          }
+                        ]
+                      }
+                    }
+                  ],
+                  "response_type": "text",
+                  "selection_policy": "sequential"
+                }
+              ]
+            },
+            "handlers": [],
+            "resolver": {
+              "type": "end_action"
+            },
+            "variable": "step_233"
+          }
+        ],
+        "title": "How can I bid on Turners Trade Me auctions?",
+        "action": "action_38016",
+        "handlers": [],
+        "condition": {
+          "intent": "action_38016_intent_5763"
+        },
+        "variables": [
+          {
+            "title": "Go to MY ACCOUNT, and select ACCOUNT DETAILS – Edit. You will th",
+            "variable": "step_233"
+          }
+        ],
+        "next_action": "action_34861",
+        "disambiguation_opt_out": false
+      },
+      {
+        "steps": [
+          {
+            "step": "step_752",
+            "output": {
+              "generic": [
+                {
+                  "values": [
+                    {
+                      "text_expression": {
+                        "concat": [
+                          {
+                            "scalar": "Goods bought via online auctions will be available for pick up and/ or shipping at the buyers expense. Talk to your local branch about your shipping options."
+                          }
+                        ]
+                      }
+                    }
+                  ],
+                  "response_type": "text",
+                  "selection_policy": "sequential"
+                }
+              ]
+            },
+            "handlers": [],
+            "resolver": {
+              "type": "end_action"
+            },
+            "variable": "step_752"
+          }
+        ],
+        "title": "What shipping options are there?",
+        "action": "action_38909",
+        "handlers": [],
+        "condition": {
+          "intent": "action_38909_intent_44382"
+        },
+        "variables": [
+          {
+            "title": "Goods bought via online auctions will be available for pick up a",
+            "variable": "step_752"
+          }
+        ],
+        "next_action": "action_8921",
+        "disambiguation_opt_out": false
+      },
+      {
+        "steps": [
+          {
+            "step": "step_106",
+            "output": {
+              "generic": [
+                {
+                  "values": [
+                    {
+                      "text_expression": {
+                        "concat": [
+                          {
+                            "scalar": "Autobid will place bids at the next minimum amount up to your maximum, if you are outbid.If the reserve has not been met and your autobid exceeds the reserve, a bid will be placed at the reserve amount.\n[Learn more about autobids here.](https://www.turners.co.nz/Cars/how-to-buy/Online-auctions/Autobids/)"
+                          }
+                        ]
+                      }
+                    }
+                  ],
+                  "response_type": "text",
+                  "selection_policy": "sequential"
+                }
+              ]
+            },
+            "handlers": [],
+            "resolver": {
+              "type": "continue"
+            },
+            "variable": "step_106"
+          }
+        ],
+        "title": "What’s an autobid?",
+        "action": "action_42277",
+        "handlers": [],
+        "condition": {
+          "intent": "action_42277_intent_37421"
+        },
+        "variables": [
+          {
+            "title": "Autobid will place bids at the next minimum amount up to your ma",
+            "variable": "step_106"
+          }
+        ],
+        "next_action": "action_24222",
+        "disambiguation_opt_out": false
+      },
+      {
+        "steps": [
+          {
+            "step": "step_266",
+            "output": {
+              "generic": [
+                {
+                  "values": [
+                    {
+                      "text_expression": {
+                        "concat": [
+                          {
+                            "scalar": "Turners Online Auctions: If you don't have a screen name your Turners website account name will be displayed. You can set your screen name here.For Damaged and End of Life Cars the identity of the other bidders is kept completely private."
+                          }
+                        ]
+                      }
+                    }
+                  ],
+                  "response_type": "text",
+                  "selection_policy": "sequential"
+                }
+              ]
+            },
+            "handlers": [],
+            "resolver": {
+              "type": "end_action"
+            },
+            "variable": "step_266"
+          },
+          {
+            "step": "step_370",
+            "output": {
+              "generic": [
+                {
+                  "values": [
+                    {
+                      "text_expression": {
+                        "concat": [
+                          {
+                            "scalar": "Your screen name is dispayed next to your bid.\n**Turners Trade Me Auctions:** Your screen name will be your Trade Me user name, as these auctions are held in partnership with Trade Me."
+                          }
+                        ]
+                      }
+                    }
+                  ],
+                  "response_type": "text",
+                  "selection_policy": "sequential"
+                }
+              ]
+            },
+            "handlers": [],
+            "resolver": {
+              "type": "continue"
+            },
+            "variable": "step_370",
+            "next_step": "step_266"
+          }
+        ],
+        "title": "What’s a screen name?",
+        "action": "action_43649",
+        "handlers": [],
+        "condition": {
+          "intent": "action_43649_intent_1554"
+        },
+        "variables": [
+          {
+            "title": "Turners Online Auctions: If you don't have a screen name your Tu",
+            "variable": "step_266"
+          },
+          {
+            "title": "Your screen name is dispayed next to your bid. **Turners Trade M",
+            "variable": "step_370"
+          }
+        ],
+        "next_action": "action_42277",
+        "disambiguation_opt_out": false
+      },
+      {
+        "steps": [
+          {
+            "step": "step_130",
+            "output": {
+              "generic": [
+                {
+                  "values": [
+                    {
+                      "text_expression": {
+                        "concat": [
+                          {
+                            "scalar": "You can still search for and view goods in online auctions. You can even ask questions, but you can’t bid on or buy the good if it's a Turners Trade Me Auction - you can if it's a Turners Online Auction."
+                          }
+                        ]
+                      }
+                    }
+                  ],
+                  "response_type": "text",
+                  "selection_policy": "sequential"
+                }
+              ]
+            },
+            "handlers": [],
+            "resolver": {
+              "type": "continue"
+            },
+            "variable": "step_130"
+          }
+        ],
+        "title": "What if I don’t link my Turners account to Trade Me?",
+        "action": "action_6760",
+        "handlers": [],
+        "condition": {
+          "intent": "action_6760_intent_5712"
+        },
+        "variables": [
+          {
+            "title": "You can still search for and view goods in online auctions. You ",
+            "variable": "step_130"
+          }
+        ],
+        "next_action": "action_35124",
+        "disambiguation_opt_out": false
+      },
+      {
+        "steps": [
+          {
+            "step": "step_594",
+            "output": {
+              "generic": [
+                {
+                  "values": [
+                    {
+                      "text_expression": {
+                        "concat": [
+                          {
+                            "scalar": "Please use the QUESTIONS & ANSWERS tab at the bottom of the listing. You need to be logged into your account to ask a question."
+                          }
+                        ]
+                      }
+                    }
+                  ],
+                  "response_type": "text",
+                  "selection_policy": "sequential"
+                }
+              ]
+            },
+            "handlers": [],
+            "resolver": {
+              "type": "end_action"
+            },
+            "variable": "step_594"
+          }
+        ],
+        "title": "How do I ask a question about a good?",
+        "action": "action_8305",
+        "handlers": [],
+        "condition": {
+          "intent": "action_8305_intent_11088"
+        },
+        "variables": [
+          {
+            "title": "Please use the QUESTIONS & ANSWERS tab at the bottom of the list",
+            "variable": "step_594"
+          }
+        ],
+        "next_action": "action_38909",
+        "disambiguation_opt_out": false
+      },
+      {
+        "steps": [
+          {
+            "step": "step_798",
+            "output": {
+              "generic": [
+                {
+                  "values": [
+                    {
+                      "text_expression": {
+                        "concat": [
+                          {
+                            "scalar": "**Turners Trade Me online auctions**: There are no additional buyers fees. What you bid, is what you pay.\n**Turners online auctions:** Standard buyers fees will apply on top of your bid price.\nTo view our buyers fees, [click here](https://www.turners.co.nz/Cars/how-to-buy/Buyer-and-Seller-Fees/)."
+                          }
+                        ]
+                      }
+                    }
+                  ],
+                  "response_type": "text",
+                  "selection_policy": "sequential"
+                }
+              ]
+            },
+            "handlers": [],
+            "resolver": {
+              "type": "continue"
+            },
+            "variable": "step_798"
+          }
+        ],
+        "title": "Are there any buyers fees?",
+        "action": "action_8921",
+        "handlers": [],
+        "condition": {
+          "intent": "action_8921_intent_29256"
+        },
+        "variables": [
+          {
+            "title": "**Turners Trade Me online auctions**: There are no additional bu",
+            "variable": "step_798"
+          }
+        ],
+        "next_action": "action_35023",
+        "disambiguation_opt_out": false
+      },
+      {
+        "steps": [
+          {
+            "step": "step_001",
+            "output": {
+              "generic": [
+                {
+                  "values": [
+                    {
+                      "text": "I am afraid I do not understand what you are asking, please re-phrase your question."
+                    }
+                  ],
+                  "response_type": "text",
+                  "selection_policy": "sequential"
+                }
+              ]
+            },
+            "handlers": [],
+            "resolver": {
+              "type": "continue"
+            },
+            "variable": "step_001"
+          }
+        ],
+        "title": "Retry when no action matches",
+        "action": "anything_else",
+        "handlers": [],
+        "condition": {
+          "expression": "anything_else"
+        },
+        "variables": [
+          {
+            "variable": "step_001"
+          }
+        ],
+        "disambiguation_opt_out": true
+      },
+      {
+        "steps": [
+          {
+            "step": "step_001",
+            "output": {
+              "generic": [
+                {
+                  "values": [
+                    {
+                      "text": "Welcome, how can I assist you?"
+                    }
+                  ],
+                  "response_type": "text",
+                  "selection_policy": "sequential"
+                }
+              ]
+            },
+            "handlers": [],
+            "resolver": {
+              "type": "continue"
+            },
+            "variable": "step_001"
+          }
+        ],
+        "title": "Greet customer",
+        "action": "welcome",
+        "handlers": [],
+        "condition": {
+          "expression": "welcome"
+        },
+        "variables": [
+          {
+            "variable": "step_001"
+          }
+        ],
+        "next_action": "action_11519",
+        "disambiguation_opt_out": true
+      }
+    ],
+    "intents": [
+      {
+        "intent": "action_11519_intent_12538",
+        "examples": [
+          {
+            "text": "email from TradeMe"
+          },
+          {
+            "text": "email from Trade Me"
+          },
+          {
+            "text": "I don't want receive email from Trade Me"
+          },
+          {
+            "text": "Why am I receiving emails from Trade Me?"
+          }
+        ]
+      },
+      {
+        "intent": "action_23582_intent_43536",
+        "examples": [
+          {
+            "text": "I don't have a Trade Me account"
+          },
+          {
+            "text": "I don't have a TradeMe account"
+          },
+          {
+            "text": "no Trade Me account"
+          },
+          {
+            "text": "no Trademe account"
+          },
+          {
+            "text": "What if I don’t have a Trade Me account?"
+          },
+          {
+            "text": "What if I don’t have a TradeMe account?"
+          }
+        ]
+      },
+      {
+        "intent": "action_24222_intent_7234",
+        "examples": [
+          {
+            "text": "difference between online auctions and Turners live"
+          },
+          {
+            "text": "online auctions and Turners live"
+          },
+          {
+            "text": "online auctions vs Turners live"
+          },
+          {
+            "text": "What’s the difference between online auctions and Turners live?"
+          }
+        ]
+      },
+      {
+        "intent": "action_32075_intent_38927",
+        "examples": [
+          {
+            "text": "How do I place an autobid?"
+          },
+          {
+            "text": "how to place autobid"
+          },
+          {
+            "text": "show me how outbid works"
+          }
+        ]
+      },
+      {
+        "intent": "action_3215_intent_28483",
+        "examples": [
+          {
+            "text": "apply for finance"
+          },
+          {
+            "text": "How do I apply for finance?"
+          },
+          {
+            "text": "how to apply for finance"
+          },
+          {
+            "text": "instruction apply for finance"
+          }
+        ]
+      },
+      {
+        "intent": "action_34861_intent_2806",
+        "examples": [
+          {
+            "text": "bid on Auctions"
+          },
+          {
+            "text": "how can I bid"
+          },
+          {
+            "text": "How can I bid on Turners Online Auctions?"
+          },
+          {
+            "text": "how to bid"
+          },
+          {
+            "text": "show me how to bid"
+          }
+        ]
+      },
+      {
+        "intent": "action_35023_intent_35998",
+        "examples": [
+          {
+            "text": "show me payment options"
+          },
+          {
+            "text": "what are payment options"
+          },
+          {
+            "text": "What payment options are there?"
+          }
+        ]
+      },
+      {
+        "intent": "action_35124_intent_45568",
+        "examples": [
+          {
+            "text": "Why do I need to link my Turners account to Trade Me?"
+          },
+          {
+            "text": "why link to Trade Me"
+          },
+          {
+            "text": "why link Turners account to Trade Me"
+          }
+        ]
+      },
+      {
+        "intent": "action_38016_intent_5763",
+        "examples": [
+          {
+            "text": "bid on Trade Me auctions"
+          },
+          {
+            "text": "How can I bid on Turners Trade Me auctions?"
+          },
+          {
+            "text": "How to bid on Trade Me auctions"
+          }
+        ]
+      },
+      {
+        "intent": "action_38909_intent_44382",
+        "examples": [
+          {
+            "text": "show me shipping options"
+          },
+          {
+            "text": "tell me shipping options"
+          },
+          {
+            "text": "what are shipping options"
+          },
+          {
+            "text": "What shipping options are there?"
+          }
+        ]
+      },
+      {
+        "intent": "action_42277_intent_37421",
+        "examples": [
+          {
+            "text": "autobid?"
+          },
+          {
+            "text": "what is autobid"
+          },
+          {
+            "text": "What’s an autobid?"
+          }
+        ]
+      },
+      {
+        "intent": "action_43649_intent_1554",
+        "examples": [
+          {
+            "text": "screename?"
+          },
+          {
+            "text": "screen name?"
+          },
+          {
+            "text": "What’s a screen name?"
+          }
+        ]
+      },
+      {
+        "intent": "action_6760_intent_5712",
+        "examples": [
+          {
+            "text": "I don't want to link to TradeMe"
+          },
+          {
+            "text": "I don't want to link to Trade Me"
+          },
+          {
+            "text": "What happened if I don't link to Trade Me?"
+          },
+          {
+            "text": "What happened if I don't link to TradeMe?"
+          },
+          {
+            "text": "What if I don’t link my Turners account to Trade Me?"
+          },
+          {
+            "text": "What if I don’t link my Turners account to TradeMe?"
+          }
+        ]
+      },
+      {
+        "intent": "action_8305_intent_11088",
+        "examples": [
+          {
+            "text": "How do I ask a question about a good?"
+          },
+          {
+            "text": "where do I ask questions"
+          },
+          {
+            "text": "where do I ask questions about a good"
+          }
+        ]
+      },
+      {
+        "intent": "action_8921_intent_29256",
+        "examples": [
+          {
+            "text": "any buyer fee"
+          },
+          {
+            "text": "Are there any buyers fees?"
+          },
+          {
+            "text": "is there any fee?"
+          }
+        ]
+      }
+    ],
+    "entities": [
+      {
+        "entity": "action_34861_step_886_entity_6196",
+        "values": [
+          {
+            "type": "synonyms",
+            "value": "Licensed Second-hand Dealers & Licensed Dismantlers",
+            "synonyms": []
+          },
+          {
+            "type": "synonyms",
+            "value": "Private customers & companies",
+            "synonyms": []
+          },
+          {
+            "type": "synonyms",
+            "value": "Registered Motor Vehicle Traders",
+            "synonyms": []
+          }
+        ],
+        "fuzzy_match": true
+      }
+    ],
+    "metadata": {
+      "api_version": {
+        "major_version": "v2",
+        "minor_version": "2018-11-08"
+      }
+    },
+    "variables": [],
+    "counterexamples": [],
+    "system_settings": {
+      "off_topic": {
+        "enabled": true
+      },
+      "disambiguation": {
+        "prompt": "Did you mean:",
+        "enabled": true,
+        "randomize": true,
+        "max_suggestions": 5,
+        "suggestion_text_policy": "title",
+        "none_of_the_above_prompt": "None of the above"
+      },
+      "system_entities": {
+        "enabled": true
+      },
+      "intent_classification": {
+        "training_backend_version": "v2"
+      },
+      "spelling_auto_correct": true
+    },
+    "learning_opt_out": false
+  },
+  "description": "",
+  "workspace_id": "b1c4ef8b-bba1-44db-8421-a52145786604",
+  "dialog_settings": {
+    "actions": true
+  }
+}
